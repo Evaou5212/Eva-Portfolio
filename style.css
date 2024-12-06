@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    color: greenyellow;
+}
+
+.font1 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('/images/egg.PNG');
+    background-size: contain no-repeat;
+    background-color: antiquewhite;
+
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.assignments ul {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+}
+
+.assignments ul li {
+    margin: 10px 0;
+}
+
+.assignments ul li a {
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.assignments ul li a:hover {
+    color: #00509e;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #777;
+    margin-top: auto;
+}
+
+.description {
+    text-align: center;
+    margin: 20px;
+    width: 500px; 
+
+}
+
+#sketch-container{
+    margin: 20px; 
+}
+
+img{
+    width: 500px;
+}
+
+img:hover {
+    transform-style: initial;
+}
+
+img:hover {
+    mix-blend-mode: difference;
+}
