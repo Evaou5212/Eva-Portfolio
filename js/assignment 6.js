@@ -9,7 +9,8 @@ let mlPerTime = 100;
 let dropletSpeed = 3;
 
 function setup() {
-  createCanvas(600,400);
+  let canvas = createCanvas(600, 400);
+  canvas.parent('sketch-container3'); 
   
   slider = createSlider(9,22,9,1); 
   slider.position(20,360);

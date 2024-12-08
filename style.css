@@ -9,6 +9,7 @@
 
 .font1 {
     font-family: "Lobster", sans-serif;
+    font-size: 80px;
     font-weight: 400;
     font-style: normal;
 }
@@ -20,9 +21,8 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    background-image: url('/images/egg.PNG');
-    background-size: contain no-repeat;
     background-color: antiquewhite;
+    background-size: contain no-repeat;
 
 }
 
@@ -44,17 +44,19 @@ h1 {
 
 .assignments ul li {
     margin: 10px 0;
+    text-align: center;
 }
 
 .assignments ul li a {
     text-decoration: none;
-    color: #0066cc;
+    font-weight: bold;
+    color: #664b30;
     font-size: 1.2em;
     transition: color 0.3s;
 }
 
 .assignments ul li a:hover {
-    color: #00509e;
+    color: rgb(243, 146, 45);
 }
 
 footer {
@@ -71,10 +73,6 @@ footer {
 
 }
 
-#sketch-container{
-    margin: 20px; 
-}
-
 img{
     width: 500px;
 }
@@ -85,4 +83,36 @@ img:hover {
 
 img:hover {
     mix-blend-mode: difference;
+}
+
+#assignment-page {
+    margin: 50px;
+}
+
+#sketch-container1{
+    margin: 20px auto; /* 水平居中，垂直20px的边距 */
+    width: 500px;
+}
+
+#sketch-container2{
+    margin: 20px auto; /* 水平居中，垂直20px的边距 */
+    width: 400px;
+}
+
+#sketch-container3{
+    margin: 20px auto; /* 水平居中，垂直20px的边距 */
+    width: 600px;
+}
+
+p {
+    font-size: 18px;
+}
+
+h2 {
+    color: #4c3824;
+}
+
+h3 {
+    font-style: italic;
+    color: #997148;
 }

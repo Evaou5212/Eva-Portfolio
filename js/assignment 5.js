@@ -5,7 +5,8 @@ let speed = 0.3;
 let rowOffsets = [];
 
 function setup() {
-  createCanvas(600, 600);
+  let canvas = createCanvas(600, 600);
+  canvas.parent('sketch-container3'); 
   noStroke();
   
   for (let i = 0; i < rows / 2; i++) {

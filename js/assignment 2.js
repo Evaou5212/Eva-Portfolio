@@ -4,7 +4,8 @@ let clothg = 30;
 let clothb = 35;
 
 function setup() {
-  createCanvas(400, 400);
+  let canvas = createCanvas(400, 400);
+  canvas.parent('sketch-container2'); 
 
   
   bg = color(255, 174, 43);
