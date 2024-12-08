@@ -16,24 +16,24 @@ let dragOffsetY = 0;
 let bgm;
 
 function preload() {
-  startScreen = loadImage('/images/start.PNG');
-  level1Bg = loadImage('/images/level1bg.PNG');
-  level2Bg = loadImage('/images/level2bg.PNG');
-  sandwichParts.bread1 = loadImage('/images/bread.PNG');
-  sandwichParts.bread2 = loadImage('/images/bread2.PNG');
-  sandwichParts.lettuce = loadImage('/images/vege.PNG');
-  sandwichParts.tomato = loadImage('/images/tomato.PNG');
-  sandwichParts.bacon = loadImage('/images/bacon.PNG');
-  sandwichParts.egg = loadImage('/images/egg.PNG');
-  foundationImg = loadImage('/images/foundation.PNG');
-  blushImg = loadImage('/images/blusher.PNG');
-  lipstickImg = loadImage('/images/lipstick.PNG');
-  characterStages[0] = loadImage('/images/step0.PNG');
-  characterStages[1] = loadImage('/images/step1.PNG');
-  characterStages[2] = loadImage('/images/step2.PNG');
-  characterStages[3] = loadImage('/images/step3.PNG');
+  startScreen = loadImage('images/start.PNG');
+  level1Bg = loadImage('images/level1bg.PNG');
+  level2Bg = loadImage('images/level2bg.PNG');
+  sandwichParts.bread1 = loadImage('images/bread.PNG');
+  sandwichParts.bread2 = loadImage('images/bread2.PNG');
+  sandwichParts.lettuce = loadImage('images/vege.PNG');
+  sandwichParts.tomato = loadImage('images/tomato.PNG');
+  sandwichParts.bacon = loadImage('images/bacon.PNG');
+  sandwichParts.egg = loadImage('images/egg.PNG');
+  foundationImg = loadImage('images/foundation.PNG');
+  blushImg = loadImage('images/blusher.PNG');
+  lipstickImg = loadImage('images/lipstick.PNG');
+  characterStages[0] = loadImage('images/step0.PNG');
+  characterStages[1] = loadImage('images/step1.PNG');
+  characterStages[2] = loadImage('images/step2.PNG');
+  characterStages[3] = loadImage('images/step3.PNG');
   
-  bgm = loadSound('/images/bgm.mp3');
+  bgm = loadSound('images/bgm.mp3');
 }
 
 function setup() {
