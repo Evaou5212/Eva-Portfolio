@@ -116,3 +116,20 @@ h3 {
     font-style: italic;
     color: #997148;
 }
+
+.information-links a{
+    text-decoration: none; /* 去除下划线 */
+    color: #997148; /* 文字颜色 */
+}
+
+.information-links a:hover {
+    color: rgb(243, 146, 45); /* 悬停时改变颜色 */
+}
+
+#information-page {
+    display: flex; /* 启用 Flex 布局 */
+    flex-direction: column; /* 使子元素垂直堆叠 (column) */
+    align-items: center; /* 水平居中所有子元素 */
+    text-align: center; /* 文字居中对齐（p 标签的内容） */
+    padding: 20px; 
+}
